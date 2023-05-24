@@ -1,8 +1,9 @@
-# Token Merging for Stable Diffusion
-This is an Extention that implements [Token Merging](https://github.com/dbolya/tomesd) for the [Automatic1111 Webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+# SD Webui Token Merging
+This is an Extension for the [Automatic1111 Webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui), that implements [Token Merging](https://github.com/dbolya/tomesd).
 
-After installing the extension, close and restart the webui **and** the terminal completely.
-It will automatically install the `tomesd` package on launch next time.
+## How to Use
+After installing the extension, close and restart the webui completely.
+It will then automatically install the `tomesd` package.
 
 Now you can go to the **Token Merging** section of the **Settings** tab to enable the ToMe Patch and adjust the `Ratio`.
 
@@ -47,16 +48,10 @@ Now you can go to the **Token Merging** section of the **Settings** tab to enabl
         </tr>
         <tr align="center">
             <td><b>Result</b></td>
-            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/Off.jpg" width=100></td>
-            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/0.3.jpg" width=100></td>
-            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/0.5.jpg" width=100></td>
-            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/0.7.jpg" width=100></td>
+            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/Off.jpg" width=128></td>
+            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/0.3.jpg" width=128></td>
+            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/0.5.jpg" width=128></td>
+            <td><img src="https://raw.githubusercontent.com/Haoming02/All-in-One-StableDiffusion-Guide/main/ToMe/0.7.jpg" width=128></td>
         </tr>
     </tbody>
 </table>
-
-## Main Difference from *[the Other Script](https://git.mmaker.moe/mmaker/sd-webui-tome)*
-- Now installs the `tomesd` package automatically
-- Removed all other settings except for `Ratio`, since the original project mentions:
-> Using the default options are recommended for the highest quality, tune ratio to suit your needs.
-- If you want to tinker around with the settings, then install the other Extension instead
