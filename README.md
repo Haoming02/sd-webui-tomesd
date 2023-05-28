@@ -1,11 +1,5 @@
-# SD Webui Token Merging
-This is an Extension for the [Automatic1111 Webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui), that implements [Token Merging](https://github.com/dbolya/tomesd).
-
-## How to Use
-After installing the extension, close and restart the webui completely.
-It will then automatically install the `tomesd` package.
-
-Now you can go to the **Token Merging** section of the **Settings** tab to enable the ToMe Patch and adjust the `Ratio`.
+<h1 align="center">Outdated</h1>
+<p align="center">This function is now implemented natively in the webui since v1.3</p>
 
 ## Examples
 > Tested on **RTX 3060** w/ `--xformers`
@@ -55,3 +49,12 @@ Now you can go to the **Token Merging** section of the **Settings** tab to enabl
         </tr>
     </tbody>
 </table>
+
+# SD Webui Token Merging
+This is an Extension for the [Automatic1111 Webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui), that implements [Token Merging](https://github.com/dbolya/tomesd).
+
+## How to Use
+After installing the extension, close and restart the webui completely.
+It will then automatically install the `tomesd` package.
+
+Now you can go to the **Token Merging** section of the **Settings** tab to enable the ToMe Patch and adjust the `Ratio`.
